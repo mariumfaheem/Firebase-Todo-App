@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TODO List</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+<body>
+    <h1><span class="title">Todo</span>List</h1>
+    <div class="inputDiv">
+    	   <input type="text" id="input" class="input" placeholder="What Do You Want to Do...">
+    	   <button class="add" id="addBtn" onclick=""><i class="fas fa-plus"></i></button>
+    </div>
+    <div class="container">
+       
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBO16Zvs9kSHkuyYTIlcrA4bcIWum38rNM",
+    authDomain: "practicewebsitesaylani.firebaseapp.com",
+    databaseURL: "https://practicewebsitesaylani.firebaseio.com",
+    projectId: "practicewebsitesaylani",
+    storageBucket: "practicewebsitesaylani.appspot.com",
+    messagingSenderId: "1093905679050",
+    appId: "1:1093905679050:web:e89d1803345388e1c16a33",
+    measurementId: "G-KGESG22QQQ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src='JS/apps.js'></script>
+</body>
+</html>
